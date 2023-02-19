@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e3ac8a1-0359-4c50-b9ac-93568a5a3f01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/version0/client/RPCClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/version0/common/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/version0/server/RPCServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/version0/server/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/version0/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/version1/client/ClientProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/version1/client/IOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/version1/client/RPCClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/version1/common/RPCRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/version1/common/RPCResponse.java" afterDir="false" />
+    <list default="true" id="5e3ac8a1-0359-4c50-b9ac-93568a5a3f01" name="Changes" comment="Version2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/version2/common/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version2/server/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version2/server/ServiceProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version2/server/SimpleRPCRPCServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version2/server/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version2/server/ThreadPoolRPCRPCServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version2/server/WorkThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version2/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +50,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="version2.server" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\workspace\MyRPCFromZero\src\main\java" />
     </key>
@@ -70,20 +66,7 @@
       <recent name="version1.client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.version1.client.RPCClient">
-    <configuration name="RPCCLientV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="version0.client.RPCCLientV1" />
-      <module name="MyRPCFromZero" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="version0.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.version2.client.RPCClient">
     <configuration name="RPCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="version0.client.RPCClient" />
       <module name="MyRPCFromZero" />
@@ -97,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RPCServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="version0.server.RPCServer" />
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="version2.server.TestServer" />
       <module name="MyRPCFromZero" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="version0.server.*" />
+          <option name="PATTERN" value="version2.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +119,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="version2.client.RPCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="version2.client.RPCClient" />
+      <module name="MyRPCFromZero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="version2.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.version2.client.RPCClient" />
+        <item itemvalue="Application.TestServer" />
         <item itemvalue="Application.version1.client.RPCClient" />
         <item itemvalue="Application.version1.server.RPCServer" />
         <item itemvalue="Application.RPCClient" />
-        <item itemvalue="Application.RPCServer" />
-        <item itemvalue="Application.RPCCLientV1" />
       </list>
     </recent_temporary>
   </component>
@@ -157,10 +153,27 @@
       <workItem from="1676206720876" duration="1436000" />
       <workItem from="1676386872462" duration="7424000" />
       <workItem from="1676463186035" duration="8443000" />
+      <workItem from="1676546541154" duration="1449000" />
+      <workItem from="1676587473591" duration="1000" />
+      <workItem from="1676760287600" duration="1301000" />
+      <workItem from="1676834068443" duration="11000" />
+      <workItem from="1676839985660" duration="5874000" />
     </task>
+    <task id="LOCAL-00001" summary="Version2">
+      <created>1676546705050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676546705050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version2" />
   </component>
 </project>
